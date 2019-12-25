@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Spelling Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="no-sidebar">
+		<div id="page-wrapper">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700" rel="stylesheet" type="text/css"/>
+		
+		<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">LEVEL 1 OF EASY SPELLING</a></h1>
+								<p>Let's Play</p>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="index.html">Home</a></li>
+									<li>
+										<a href="activity.html">Activity</a>
+										<ul>
+											<li><a href="spell.html">Spelling</a></li>
+											<li><a href="pm.html">Picture Matching</a></li>
+											<li><a href="sing.html">Sing</a></li>
+										</ul>
+									</li>
+									<li><a href="sign_in.html">Sign In</a></li>
+									<li><a href="sign_up.html">Sign Up</a></li>
+									<li><a href="Parents.html">Parents</a></li>
+									<li><a href="Help.html">Help</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+				
+				<!-- Main -->
+				<div class="wrapper style2">
+					<div class="title">SPELLING</div>
+					<div id="highlights" class="container">
+						<div class="row 150%">
+						</div>
+					<h1 id="question">
+						<span id="before"></span><!---->
+						<span id="vowel">h</span><!---->
+						<span id="after"></span>
+					</h1>
+
+					<h1 id="showMe"></h1>
+					
+					<img id="image" src="http://www.hollybraun.com/post-images/making-pancakes.jpg">
+					
+					<div id=options>
+						<button onclick="fillIn(answerA)" id="answer1">Choice 1</button>
+						<button onclick="fillIn(answerB)" id="answer2">Choice 2</button>
+						<button onclick="fillIn(answerC)" id="answer3">Choice 3</button>
+					</div>
+					<div id="controls">
+						<button id="reveal" onclick="reveal(event)">Check</button>
+						<button id="refresh" onclick="location.reload(true)">Next</button>	
+  
+					</div>
+									
+				</div>
+			</div>
+
+ <!-- Scripts -->
+			<script  src="js/index.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+    
+

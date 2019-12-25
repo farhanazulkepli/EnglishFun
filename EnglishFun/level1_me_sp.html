@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Spelling Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="no-sidebar">
+		<div id="page-wrapper">
+		
+		<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">LEVEL 1 OF MEDIUM SPELLING</a></h1>
+								<p>Let's Play</p>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="index.html">Home</a></li>
+									<li>
+										<a href="activity.html">Activity</a>
+										<ul>
+											<li><a href="spell.html">Spelling</a></li>
+											<li><a href="pm.html">Picture Matching</a></li>
+											<li><a href="sing.html">Sing</a></li>
+										</ul>
+									</li>
+									<li><a href="sign_in.html">Sign In</a></li>
+									<li><a href="sign_up.html">Sign Up</a></li>
+									<li><a href="Parents.html">Parents</a></li>
+									<li><a href="Help.html">Help</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+		
+		<!-- Highlights -->
+				<div class="wrapper style3">
+					<div class="title">MEDIUM</div>
+									Number of words to choose from:<input id="total-words">
+									How many lives:<input id="total-lives">
+									<button id="start" onclick="start()">start</button>
+									<form id="word-holder"></form>
+									<div id="score">Score:</div>
+									<div id="lives">Lives:</div>
+									<div id="message-box"></div>
+									<button id="answer-button" type="button" onclick="checkAnswer()" value="Answer">Answer</button>
+									<button id="next-button" type="button" onclick="generateWords()" value="Next">Next</button>
+									<div>
+									<ul class="actions">
+										<li><a href="medium_spe.html" class="button style1">= BACK =</a></li>
+									</ul>
+									</div>
+					</div>
+				</div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			 <script  src="js/index2.js"></script>
+
+	</body>
+</html>
